@@ -42,9 +42,13 @@
             src="./images/logo_coffeeshop_dark.svg"
             alt="logo da marca"
           />
-          <ul class="nav__link">
+          <ul class="nav__links">
             <li><a href="#recipes" class="nav__links-link">Receitas</a></li>
-            <li class="nav__links-link">Reservar uma mesa</li>
+            <li>
+              <a href="#reservation" class="nav__links-link"
+                >Reservar uma mesa</a
+              >
+            </li>
             <li class="nav__links-link">Contatos</li>
           </ul>
         </nav>
@@ -61,17 +65,17 @@
           src="./images/inside_coffee_shop.png"
           alt=""
         />
-      </header>
-      <footer class="header__footer">
-        <div class="header__footer__schedules">
-          <p class="footer__schedules">Horários</p>
-          <p class="footer__schedules">Segunda a sexta (10:00 – 19:00)</p>
-          <p class="footer__schedules">Sábado a domingo (11:00 - 18:00)</p>
+        <div class="header__footer">
+          <div class="footer__schedules">
+            <p class="header__paragraph">Horários</p>
+            <p class="header__paragraph">Segunda a sexta (10:00 – 19:00)</p>
+            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
         </div>
-        <p class="footer__adress">
-          200 Success Avenue, a cidade de Triple Peaks
-        </p>
-      </footer>
+      </header>
       <main class="content">
         <section id="recipes" class="recipes">
           <h2 class="recipes__title">Receitas</h2>
@@ -81,12 +85,9 @@
           <div class="recipes__videos">
             <div class="recipe__videos__video-item">
               <iframe
-                class="iframe"
-                width="480"
-                height="276"
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=xWC8LFnNwGlEzlvB&amp;start=5"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -99,12 +100,9 @@
             </div>
             <div class="recipe__videos__video-item">
               <iframe
-                class="iframe"
-                width="480"
-                height="276"
+                class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=TivbqNQTqNZVDokk&amp;start=3"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -117,7 +115,7 @@
             </div>
           </div>
         </section>
-        <section class="section"></section>
+        <section id="reservation" class="section"></section>
       </main>
       <footer class="footer"></footer>
     </div>

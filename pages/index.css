@@ -33,7 +33,7 @@
   height: 39px;
 }
 
-.nav__link {
+.nav__links {
   display: flex;
   gap: 20px;
   list-style-type: none;
@@ -96,20 +96,13 @@
 
 .header__footer {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin-top: auto;
   padding-left: 80px;
   padding-bottom: 40px;
 }
 
-.footer__schedules {
+.header__paragraph {
   margin: 0;
-}
-
-.footer__adress {
-  margin: 0;
-  padding-bottom: 40px;
-  padding-right: 80px;
 }
 
 .header__footer p {
@@ -152,6 +145,12 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+.recipes__iframe {
+  width: 480px;
+  height: 276px;
+  border: none;
 }
 
 .recipes__videos {
