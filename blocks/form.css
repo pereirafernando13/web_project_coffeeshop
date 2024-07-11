@@ -50,6 +50,10 @@
   border: none;
 }
 
+.form__button:hover {
+  opacity: 70%;
+}
+
 .form__label-checkbox {
   display: flex;
   gap: 12px;
